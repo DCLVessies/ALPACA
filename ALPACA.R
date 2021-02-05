@@ -76,21 +76,23 @@ ALPACA <- function(FPR=FalsePositiveRates) {
 FalsePositiveRates <- data.frame(matrix(c(
   "1","BRAF V600E",19,6e-05,
   "2","BRAF V600E",297,4e-05,
-  "3","EGFR E746-A750del",34,8e-05,
-  "4","EGFR E746-A750del",210,6e-05,
-  "5","EGFR E746-A750del",273,6e-05,
-  "6","EGFR exon19 del",33,1e-04,
-  "7","EGFR exon19 del",77,3e-05,
-  "8","EGFR exon19 del",235,4e-05,
-  "9","EGFR L858R",34,4e-05,
-  "10","EGFR L858R",173,2e-05,
-  "11","EGFR L858R",266,1e-05,
-  "12","EGFR T790M",5,3e-04,
-  "13","EGFR T790M",34,3e-05,
-  "14","EGFR T790M",144,9e-05,
-  "15","EGFR T790M",471,4e-05,
-  "16","KRAS G12/G13",25,3e-04,
-  "17","KRAS G12/G13",250,4e-05
+  "3","BRAF V600E",472,5e-06,
+  "4","EGFR E746-A750del",34,8e-05,
+  "5","EGFR E746-A750del",210,6e-05,
+  "6","EGFR E746-A750del",270,5e-06,
+  "7","EGFR exon19 del",33,1e-04,
+  "8","EGFR exon19 del",77,3e-05,
+  "9","EGFR exon19 del",235,4e-05,
+  "10","EGFR L858R",34,4e-05,
+  "11","EGFR L858R",173,2e-05,
+  "12","EGFR L858R",309,4e-06,
+  "13","EGFR L858R",441,3e-6,
+  "14","EGFR T790M",5,3e-04,
+  "15","EGFR T790M",34,3e-05,
+  "16","EGFR T790M",144,9e-05,
+  "17","EGFR T790M",471,4e-05,
+  "18","KRAS G12/G13",25,3e-04,
+  "19","KRAS G12/G13",250,4e-05
 ), ncol=4, byrow=TRUE), stringsAsFactors = FALSE)
 
 colnames(FalsePositiveRates) <- c(" ", "Assay","cpul","FPR")
